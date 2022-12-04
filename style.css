@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    pointer-events: none;
+}
+
+.movable {
+    position: absolute;
+    width: 300px;
+    min-height: 100px;
+    background-color: red;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.addBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
