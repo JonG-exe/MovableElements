@@ -4,7 +4,7 @@ The 'moveElements.js' script allows any element with the class name 'movable', t
 
 **Note:** If one intends to add elements dynamically to the document, they would have to call the makeMovable() function afterwards so that the event listeners and their respective functions (that make moving elements possible) are added to those newly added elements. 
 
-==========================
+========================
 
 * Other Important Notes *
 
